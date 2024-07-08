@@ -24,7 +24,7 @@ scaler=MinMaxScaler(feature_range=(0,1))
 #%%
 """### Read the dataset:"""
 
-df=pd.read_csv("NSE-Tata-Global-Beverages-Limited.csv")
+df=pd.read_csv("stock_data.csv")
 df.head()
 #%%
 """### Analyze the closing prices from dataframe:"""
